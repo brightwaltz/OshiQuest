@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "OshiQuest",
+    "slug": "oshi-quest",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "oshi-quest",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF0F6"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.oshiquest.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "推し活の写真をアップロードするために、カメラロールへのアクセスが必要です。",
+        "NSLocationWhenInUseUsageDescription": "推し活ログに場所情報を自動入力するために、位置情報へのアクセスが必要です。"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFF0F6"
+      },
+      "package": "com.oshiquest.app",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-image-picker",
+      "expo-location",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-3940256099942544~3347511713",
+    "ios_app_id": "ca-app-pub-3940256099942544~1458002511"
+  }
+}
