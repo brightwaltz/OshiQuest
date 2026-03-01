@@ -1,0 +1,134 @@
+0 verbose cli /opt/homebrew/Cellar/node/25.6.1_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.9.0
+2 info using node@v25.6.1
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/kenichi.shibata/Antigravity/OshiQuest/.npmrc
+5 silly config load:file:/Users/kenichi.shibata/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install gh-pages
+8 verbose argv "install" "--save-dev" "gh-pages" "--cache" "./.npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/kenichi.shibata/Antigravity/OshiQuest/.npm-cache/_logs/2026-03-01T15_44_11_740Z-
+10 verbose logfile /Users/kenichi.shibata/Antigravity/OshiQuest/.npm-cache/_logs/2026-03-01T15_44_11_740Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose shrinkwrap failed to load /Users/kenichi.shibata/Antigravity/OshiQuest EPERM: operation not permitted, open '/Users/kenichi.shibata/Antigravity/OshiQuest/node_modules/.package-lock.json'
+14 silly idealTree buildDeps
+15 silly fetch manifest gh-pages@*
+16 silly packumentCache full:https://registry.npmjs.org/gh-pages cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/gh-pages 138ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/gh-pages set size:undefined disposed:false
+19 silly placeDep ROOT gh-pages@6.3.0 OK for: oshi-quest@0.1.0 want: *
+20 silly fetch manifest async@^3.2.4
+21 silly packumentCache full:https://registry.npmjs.org/async cache-miss
+22 silly fetch manifest fs-extra@^11.1.1
+23 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+24 silly fetch manifest commander@^13.0.0
+25 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+26 silly fetch manifest filenamify@^4.3.0
+27 silly packumentCache full:https://registry.npmjs.org/filenamify cache-miss
+28 silly fetch manifest find-cache-dir@^3.3.1
+29 silly packumentCache full:https://registry.npmjs.org/find-cache-dir cache-miss
+30 silly fetch manifest email-addresses@^5.0.0
+31 silly packumentCache full:https://registry.npmjs.org/email-addresses cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/async 35ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/async set size:undefined disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/fs-extra 72ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:undefined disposed:false
+36 http fetch GET 200 https://registry.npmjs.org/filenamify 78ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/filenamify set size:undefined disposed:false
+38 http fetch GET 200 https://registry.npmjs.org/find-cache-dir 91ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/find-cache-dir set size:undefined disposed:false
+40 http fetch GET 200 https://registry.npmjs.org/commander 202ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/commander set size:undefined disposed:false
+42 http fetch GET 200 https://registry.npmjs.org/email-addresses 205ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/email-addresses set size:undefined disposed:false
+44 silly placeDep ROOT async@3.2.6 OK for: gh-pages@6.3.0 want: ^3.2.4
+45 silly placeDep node_modules/gh-pages commander@13.1.0 OK for: gh-pages@6.3.0 want: ^13.0.0
+46 silly placeDep ROOT email-addresses@5.0.0 OK for: gh-pages@6.3.0 want: ^5.0.0
+47 silly placeDep ROOT filenamify@4.3.0 OK for: gh-pages@6.3.0 want: ^4.3.0
+48 silly placeDep node_modules/gh-pages find-cache-dir@3.3.2 OK for: gh-pages@6.3.0 want: ^3.3.1
+49 silly placeDep node_modules/gh-pages fs-extra@11.3.3 OK for: gh-pages@6.3.0 want: ^11.1.1
+50 silly fetch manifest strip-outer@^1.0.1
+51 silly packumentCache full:https://registry.npmjs.org/strip-outer cache-miss
+52 silly fetch manifest trim-repeated@^1.0.0
+53 silly packumentCache full:https://registry.npmjs.org/trim-repeated cache-miss
+54 silly fetch manifest filename-reserved-regex@^2.0.0
+55 silly packumentCache full:https://registry.npmjs.org/filename-reserved-regex cache-miss
+56 silly fetch manifest make-dir@^3.0.2
+57 silly packumentCache full:https://registry.npmjs.org/make-dir cache-miss
+58 silly fetch manifest jsonfile@^6.0.1
+59 silly packumentCache full:https://registry.npmjs.org/jsonfile cache-miss
+60 silly fetch manifest universalify@^2.0.0
+61 silly packumentCache full:https://registry.npmjs.org/universalify cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/jsonfile 34ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/jsonfile set size:undefined disposed:false
+64 http fetch GET 200 https://registry.npmjs.org/strip-outer 36ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/strip-outer set size:undefined disposed:false
+66 http fetch GET 200 https://registry.npmjs.org/trim-repeated 36ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/trim-repeated set size:undefined disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/filename-reserved-regex 39ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/filename-reserved-regex set size:undefined disposed:false
+70 http fetch GET 200 https://registry.npmjs.org/universalify 38ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/universalify set size:undefined disposed:false
+72 http fetch GET 200 https://registry.npmjs.org/make-dir 43ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/make-dir set size:undefined disposed:false
+74 silly placeDep ROOT filename-reserved-regex@2.0.0 OK for: filenamify@4.3.0 want: ^2.0.0
+75 silly placeDep ROOT strip-outer@1.0.1 OK for: filenamify@4.3.0 want: ^1.0.1
+76 silly placeDep ROOT trim-repeated@1.0.0 OK for: filenamify@4.3.0 want: ^1.0.0
+77 silly fetch manifest escape-string-regexp@^1.0.2
+78 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp cache-miss
+79 silly fetch manifest escape-string-regexp@^1.0.2
+80 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 30ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp set size:undefined disposed:false
+83 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 30ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp set size:undefined disposed:false
+85 silly placeDep node_modules/strip-outer escape-string-regexp@1.0.5 OK for: strip-outer@1.0.1 want: ^1.0.2
+86 silly placeDep node_modules/trim-repeated escape-string-regexp@1.0.5 OK for: trim-repeated@1.0.0 want: ^1.0.2
+87 silly placeDep node_modules/gh-pages make-dir@3.1.0 OK for: find-cache-dir@3.3.2 want: ^3.0.2
+88 silly placeDep node_modules/gh-pages jsonfile@6.2.0 OK for: fs-extra@11.3.3 want: ^6.0.1
+89 silly placeDep node_modules/gh-pages universalify@2.0.1 OK for: fs-extra@11.3.3 want: ^2.0.0
+90 silly reify moves {}
+91 verbose stack Error: EPERM: operation not permitted, mkdir '/Users/kenichi.shibata/Antigravity/OshiQuest/node_modules/@0no-co/graphql.web'
+91 verbose stack     at async mkdir (node:internal/fs/promises:856:10)
+91 verbose stack     at async /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:572:20
+91 verbose stack     at async Promise.allSettled (index 0)
+91 verbose stack     at async #reifyPackages (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:309:11)
+91 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:121:5)
+91 verbose stack     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:151:5)
+91 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:208:9)
+91 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:67:5)
+92 error code EPERM
+93 error syscall mkdir
+94 error path /Users/kenichi.shibata/Antigravity/OshiQuest/node_modules/@0no-co/graphql.web
+95 error errno -1
+96 error Error: EPERM: operation not permitted, mkdir '/Users/kenichi.shibata/Antigravity/OshiQuest/node_modules/@0no-co/graphql.web'
+96 error     at async mkdir (node:internal/fs/promises:856:10)
+96 error     at async /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:572:20
+96 error     at async Promise.allSettled (index 0)
+96 error     at async #reifyPackages (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:309:11)
+96 error     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:121:5)
+96 error     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:151:5)
+96 error     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:208:9)
+96 error     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:67:5) {
+96 error   errno: -1,
+96 error   code: 'EPERM',
+96 error   syscall: 'mkdir',
+96 error   path: '/Users/kenichi.shibata/Antigravity/OshiQuest/node_modules/@0no-co/graphql.web'
+96 error }
+97 error
+97 error The operation was rejected by your operating system.
+97 error It is likely you do not have the permissions to access this file as the current user
+97 error
+97 error If you believe this might be a permissions issue, please double-check the
+97 error permissions of the file and its containing directories, or try running
+97 error the command again as root/Administrator.
+98 silly unfinished npm timer reify 1772379851845
+99 silly unfinished npm timer reify:createSparse 1772379852459
+100 verbose cwd /Users/kenichi.shibata/Antigravity/OshiQuest
+101 verbose os Darwin 25.3.0
+102 verbose node v25.6.1
+103 verbose npm  v11.9.0
+104 verbose exit -1
+105 verbose code -1
+106 error A complete log of this run can be found in: /Users/kenichi.shibata/Antigravity/OshiQuest/.npm-cache/_logs/2026-03-01T15_44_11_740Z-debug-0.log
