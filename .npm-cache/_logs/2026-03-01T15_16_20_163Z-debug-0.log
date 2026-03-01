@@ -1,0 +1,73 @@
+0 verbose cli /opt/homebrew/Cellar/node/25.6.1_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.9.0
+2 info using node@v25.6.1
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/kenichi.shibata/Antigravity/OshiQuest/.npmrc
+5 silly config load:file:/Users/kenichi.shibata/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install react-dom react-native-web @expo/metro-runtime
+8 verbose argv "install" "react-dom" "react-native-web" "@expo/metro-runtime" "--cache" "./.npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/kenichi.shibata/Antigravity/OshiQuest/.npm-cache/_logs/2026-03-01T15_16_20_163Z-
+10 verbose logfile /Users/kenichi.shibata/Antigravity/OshiQuest/.npm-cache/_logs/2026-03-01T15_16_20_163Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest react-dom@*
+15 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 382ms
+17 http fetch GET 200 https://registry.npmjs.org/react-dom 292ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+19 silly fetch manifest react@18.3.1
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react 116ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+23 silly fetch manifest react@^19.2.4
+24 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+25 http cache https://registry.npmjs.org/react 9ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/react set size:6523821 disposed:false
+27 verbose stack Error: unable to resolve dependency tree
+27 verbose stack     at #failPeerConflict (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1402:25)
+27 verbose stack     at #loadPeerSet (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1368:33)
+27 verbose stack     at async #buildDepStep (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:916:11)
+27 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:170:7)
+27 verbose stack     at async Promise.all (index 1)
+27 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:110:5)
+27 verbose stack     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:151:5)
+27 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:208:9)
+27 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:67:5)
+28 error code ERESOLVE
+29 error ERESOLVE unable to resolve dependency tree
+30 error
+31 error While resolving: oshi-quest@0.1.0
+31 error Found: react@18.3.1[2m[22m
+31 error [2mnode_modules/react[22m
+31 error   react@"18.3.1" from the root project
+31 error
+31 error Could not resolve dependency:
+31 error [95mpeer[39m react@"^19.2.4" from react-dom@19.2.4[2m[22m
+31 error [2mnode_modules/react-dom[22m
+31 error   react-dom@"*" from the root project
+31 error
+31 error Fix the upstream dependency conflict, or retry
+31 error this command with --force or --legacy-peer-deps
+31 error to accept an incorrect (and potentially broken) dependency resolution.
+32 error
+32 error
+32 error For a full report see:
+32 error /Users/kenichi.shibata/Antigravity/OshiQuest/.npm-cache/_logs/2026-03-01T15_16_20_163Z-eresolve-report.txt
+33 silly unfinished npm timer reify 1772378180287
+34 silly unfinished npm timer reify:loadTrees 1772378180288
+35 silly unfinished npm timer idealTree:buildDeps 1772378180451
+36 silly unfinished npm timer idealTree:#root 1772378180451
+37 verbose cwd /Users/kenichi.shibata/Antigravity/OshiQuest
+38 verbose os Darwin 25.3.0
+39 verbose node v25.6.1
+40 verbose npm  v11.9.0
+41 notice
+41 notice New [33mminor[39m version of npm available! [33m11.9.0[39m -> [34m11.11.0[39m
+41 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.11.0[39m
+41 notice To update run: [4mnpm install -g npm@11.11.0[24m
+41 notice  { force: true, Symbol(proc-log.meta): true }
+42 verbose exit 1
+43 verbose code 1
+44 error A complete log of this run can be found in: /Users/kenichi.shibata/Antigravity/OshiQuest/.npm-cache/_logs/2026-03-01T15_16_20_163Z-debug-0.log

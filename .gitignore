@@ -1,0 +1,23 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+veda
+web-build/
+
+# macOS
+.DS_Store
+
+# ENV variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
